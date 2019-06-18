@@ -3,8 +3,18 @@ Uma simples API com symfony e banco Mysql para um consultório médico
 
 Nessa API você cadastra médico e sua especialidade
 
-/medicos - GET - lista os medicos, POST - cria um medico
-/medicos/id - GET - pega um medico especifico, PUT - atualiza dados de um medico, DELETE - remove um medico
+* /medicos 
+1. GET - lista os médicos, 
+2. POST - cria um médico
+* /medicos/id
+1. GET - pega um médico específico, 
+2. PUT - atualiza dados de um médico específico,
+3. DELETE - remove um medico específico
 
-/especialidades - GET - lista as especialidades, POST - cria uma especialidade
-/especialidades/id - GET - pega uma especialidade especifica, PUT - atualiza dados de uma especialidade, DELETE - remove uma especialidade
+* /especialidades
+1. GET - lista as especialidades, 
+2. POST - cria uma especialidade
+* /especialidades/id 
+1. GET - pega uma especialidade específica, 
+2. PUT - atualiza dados de uma especialidade específica, 
+3. DELETE - remove uma especialidade específica
